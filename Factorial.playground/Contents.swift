@@ -1,8 +1,16 @@
 /**
- Two factorial implementations in Swift:
-    1) Using FOR loop
-    2) Using recursion
+ Factorial - two implementations:
+ - with a for loop
+ - recursive
+ 
+ In mathematics, the factorial of a positive integer n, denoted by n!, is the product of all positive integers less than or equal to n, such that:
+ 
+ n! = n * (n-1) * (n-2) * (n-3) * ... * 3 * 2 * 1
+ 
+ For example: 5! = 5 * 4 * 3 * 2 * 1 = 120
+ 
  */
+
 
 func factorial(of value: UInt) -> UInt {
     
